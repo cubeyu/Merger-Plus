@@ -1,18 +1,18 @@
-# Merger-Plus
+# Donate-page
 
 > 💸 我很可爱，请给我钱 ww
 
 一键打钱（大误）提供从浏览器跳转至支付宝/微信支付/QQ 支付/Paypal 的能力，帮助个人开发者完成打赏功能实现。
 
-> 示例页面： **[快来打钱快来打钱～疯狂暗示 wink 😘](https://donate.new.idealclover.cn)**
+> 示例页面： **[快来打钱快来打钱～疯狂暗示 wink 😘](https://donate.techisle.top)**
 
 - PC 端显示效果
 
-<a href="https://donate.new.idealclover.cn" target="_blank"><img src="https://i.loli.net/2021/09/24/bDRBvuknsKTpafW.png" alt="PC"></a>
+<a href="https://donate.techisle.top" target="_blank"><img src="https://i.loli.net/2021/09/24/bDRBvuknsKTpafW.png" alt="PC"></a>
 
 - 移动端显示效果
 
-<a href="https://donate.new.idealclover.cn" target="_blank"><img src="https://i.loli.net/2021/09/24/L8vdo1c9uRfmAq6.png" width="250" alt="Mobile"></a>
+<a href="https://donate.techisle.top" target="_blank"><img src="https://i.loli.net/2021/09/24/L8vdo1c9uRfmAq6.png" width="250" alt="Mobile"></a>
 
 本项目基于 [hifocus/merger](https://github.com/hifocus/merger) 上开发 ~~但其实基本把大部分代码都重新写了个遍~~ 在项目基础上实现的 Feature：
 
@@ -53,35 +53,35 @@ yarn build
 
 ```javascript
 {
-  "profile": "https://image.idealclover.cn/blog/assets/icon.png", //头像
-  "name": "idealclover", //主标题
-  "description": "来给翠翠投喂棒棒糖吧🍭", //副标题
-  "qrlogo": "statics/icon.png", //二维码上logo，可不要
-  "alipay": { //支付宝钱包，没有可以去掉
-    "title": "😘支付宝扫一扫 投喂翠翠", //支付包钱包弹窗标题
-    "othertitle": "长按图片保存，在支付宝打开<br />😘感谢投喂翠翠", //针对无法下载情况的标题
-    "url": "https://qr.alipay.com/FKX00710CQCHIHK4B9CA31", //支付宝钱包跳转链接
-    "open_url": "alipays://platformapi/startapp?appId=10000007&qrcode=https://qr.alipay.com/FKX00710CQCHIHK4B9CA31" //支付宝deeplink
-    "savetext": "保存二维码" //保存按钮文案
+  "profile": "statics/my-avatar.png",
+  "name": "cubeyu",
+  "description": "来给麦希屿投喂棒棒糖吧🍭",
+  "qrlogo": "statics/icon.png",
+  "alipay": {
+    "title": "😘支付宝扫一扫 投喂麦希屿",
+    "othertitle": "长按图片保存，在支付宝打开<br />😘感谢投喂",
+    "url": "https://qr.alipay.com/a6x11732pyuue0s59mdzp97",
+    "open_url": "alipays://platformapi/startapp?appId=10000007&qrcode=https://qr.alipay.com/a6x11732pyuue0s59mdzp97",
+    "savetext": "保存二维码"
   },
-  "wechatpay": { //微信钱包 没有可以去掉
-    "title": "微信扫一扫 投喂翠翠", //微信钱包弹窗标题
-    "othertitle": "长按图片保存，在微信打开<br />😘感谢投喂翠翠", //针对无法下载情况的标题
-    "url": "wxp://f2f06W7B_VcXSogUH73o9rPpeEs2jsGfVtr0" //微信钱包跳转链接
-    "savetext": "保存二维码" //保存按钮文案
-    "wechattitle": "长按图片扫一扫 投喂翠翠", //微信专用，微信二维码在微信内打开的标题
-    "wechattext": "如使用其他方式付款，请点击右上角<br />并选择”在浏览器打开“" //微信专用，微信二维码在微信内打开的文案
-    "toapptext": "保存完成，去微信扫一扫" //scheme调起微信
+  "wechatpay": {
+    "title": "😘微信扫一扫 投喂麦希屿",
+    "othertitle": "长按图片保存，在微信打开<br />😘感谢投喂",
+    "url": "wxp://f2f04oJmM0v3ZQRHp_ci_LWhGAE1MGmnug9q70bIAGQmdeo",
+    "savetext": "保存二维码",
+    "wechattitle": "😘长按图片扫一扫 投喂麦希屿",
+    "wechattext": "如使用其他方式付款，请点击右上角<br />并选择”在浏览器打开“",
+    "toapptext": "保存完成，去微信扫一扫"
   },
-  "tenpay": { //QQ钱包 没有可以去掉
-    "title": "QQ手机版扫一扫 投喂翠翠", //QQ钱包弹窗标题
-    "othertitle": "长按图片保存，在手机QQ打开<br />😘感谢投喂翠翠", //针对无法下载情况的标题
-    "url": "https://vac.qq.com/wallet/qrcode.htm?m=tenpay&a=1&u=1455169173&ac=BE7F6A40B177C4558EAF9F8049F4A5BF5596E6985312BE2A2C574D0C8B1B593E&n=504%20Gateway%20Timeout&f=wallet" //QQ钱包跳转链接
-    "savetext": "保存二维码" //保存按钮文案
-    "toapptext": "保存完成，去手机QQ扫一扫" //scheme调起手机QQ
+  "tenpay": {
+    "title": "😘手机QQ扫一扫 投喂麦希屿",
+    "othertitle": "长按图片保存，在手机QQ打开<br />😘感谢投喂",
+    "url": "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&u=3144855127&n=%E9%BA%A6%E5%B8%8C%E5%B1%BF&ac=CAEQ19zK2wsY0YOPwAYyGOiBiuWkqeWcuuaZr-e7j-iQpeaUtuasvjgBQiA0NmQ4NjI4OTZjNmFkY2RhYzlmZjZlZTBhYTRkNWU4NQ%3D%3D_xxx_sign",
+    "savetext": "保存二维码",
+    "toapptext": "保存完成，去手机QQ扫一扫"
   },
-  "paypal": { //paypal钱包，没有可以去掉
-    "url": "https://www.paypal.com/paypalme/idealclover?locale.x=zh_XC" //paypal链接
+  "paypal": {
+    "url": "https://paypal.me/maixiyu?country.x=C2&locale.x=zh_XC"
   }
 }
 ```
