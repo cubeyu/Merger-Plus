@@ -1,32 +1,32 @@
 {
   "profile": "https://image.idealclover.cn/blog/assets/icon.png",
-  "name": "idealclover",
-  "description": "来给翠翠投喂棒棒糖吧🍭",
+  "name": "cubeyu",
+  "description": "来给麦希屿投喂棒棒糖吧🍭",
   "qrlogo": "statics/icon.png",
   "alipay": {
-    "title": "😘支付宝扫一扫 投喂翠翠",
-    "othertitle": "长按图片保存，在支付宝打开<br />😘感谢投喂翠翠",
-    "url": "https://qr.alipay.com/FKX00710CQCHIHK4B9CA31",
-    "open_url": "alipays://platformapi/startapp?appId=10000007&qrcode=https://qr.alipay.com/FKX00710CQCHIHK4B9CA31",
+    "title": "😘支付宝扫一扫 投喂麦希屿",
+    "othertitle": "长按图片保存，在支付宝打开<br />😘感谢投喂",
+    "url": "https://qr.alipay.com/a6x11732pyuue0s59mdzp97",
+    "open_url": "alipays://platformapi/startapp?appId=10000007&qrcode=https://qr.alipay.com/a6x11732pyuue0s59mdzp97",
     "savetext": "保存二维码"
   },
   "wechatpay": {
-    "title": "😘微信扫一扫 投喂翠翠",
-    "othertitle": "长按图片保存，在微信打开<br />😘感谢投喂翠翠",
-    "url": "wxp://f2f06W7B_VcXSogUH73o9rPpeEs2jsGfVtr0",
+    "title": "😘微信扫一扫 投喂麦希屿",
+    "othertitle": "长按图片保存，在微信打开<br />😘感谢投喂",
+    "url": "wxp://f2f04oJmM0v3ZQRHp_ci_LWhGAE1MGmnug9q70bIAGQmdeo",
     "savetext": "保存二维码",
-    "wechattitle": "😘长按图片扫一扫 投喂翠翠",
+    "wechattitle": "😘长按图片扫一扫 投喂麦希屿",
     "wechattext": "如使用其他方式付款，请点击右上角<br />并选择”在浏览器打开“",
     "toapptext": "保存完成，去微信扫一扫"
   },
   "tenpay": {
-    "title": "😘手机QQ扫一扫 投喂翠翠",
-    "othertitle": "长按图片保存，在手机QQ打开<br />😘感谢投喂翠翠",
-    "url": "https://vac.qq.com/wallet/qrcode.htm?m=tenpay&a=1&u=1455169173&ac=BE7F6A40B177C4558EAF9F8049F4A5BF5596E6985312BE2A2C574D0C8B1B593E&n=504%20Gateway%20Timeout&f=wallet",
+    "title": "😘手机QQ扫一扫 投喂麦希屿",
+    "othertitle": "长按图片保存，在手机QQ打开<br />😘感谢投喂",
+    "url": "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&u=3144855127&n=%E9%BA%A6%E5%B8%8C%E5%B1%BF&ac=CAEQ19zK2wsY0YOPwAYyGOiBiuWkqeWcuuaZr-e7j-iQpeaUtuasvjgBQiA0NmQ4NjI4OTZjNmFkY2RhYzlmZjZlZTBhYTRkNWU4NQ%3D%3D_xxx_sign",
     "savetext": "保存二维码",
     "toapptext": "保存完成，去手机QQ扫一扫"
   },
   "paypal": {
-    "url": "https://www.paypal.com/paypalme/idealclover?locale.x=zh_XC"
+    "url": "https://paypal.me/maixiyu?country.x=C2&locale.x=zh_XC"
   }
 }
